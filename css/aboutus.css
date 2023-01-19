@@ -1,0 +1,244 @@
+
+@media only screen and (max-width: 999px) {  
+
+    .aboutdesk {
+        display:none;
+    }
+
+#navoptions {
+    text-align:center;
+    padding:20px;
+    margin-bottom:60px;
+margin-top:270px;
+margin-bottom:80px;
+}
+
+#navoptions a {
+    padding-left:25px;
+    padding-right:25px;  
+    padding-top:25px;  
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size:42px;
+    text-align:center;    
+    color:rgb(83, 83, 83);
+    background-color:rgb(192, 218, 199);
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+    font-weight: normal;
+}
+
+.infotext {
+    width:85%;
+    text-align:justify;    
+    margin-left:auto;
+    margin-right:auto;
+    color:rgb(63, 63, 63);
+    line-height:1.4;
+    font-size:1em;
+}
+
+
+.picContain {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;  
+    margin-bottom:75px;
+    text-align:center;
+}
+
+.fourpics { 
+    height:500px;
+      width: 100%;     
+      padding:0;
+      margin:0;  
+      margin-top:-2px;
+      margin-bottom:-3px; 
+     
+}
+  
+     
+    
+
+#sign {
+    color:rgb(30, 97, 45);
+    
+    text-align:center;
+}
+
+
+
+#open {
+    color:rgb(28, 92, 26);
+ 
+    text-align:center;
+}
+
+#bees {
+    width:80%;
+    height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("../IMG/bees.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom:100px;
+}
+
+.ablink {
+    color:green;
+    
+}
+
+.ablink:hover {
+    color:grey;
+}
+
+.centertxt {
+    text-align:center;
+}
+
+.youtube {
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.centlink {
+    text-align:center;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1000px) {  
+
+    .centlink {
+        text-align:center;
+    }
+
+    .youtube {
+        text-align:center;
+        margin-top:30px;
+        margin-bottom:50px;
+    }
+    
+
+    .centertxt {
+        text-align:center;
+    }
+    
+
+    .aboutmob {
+        display:none;
+    }
+
+    #navoptions {
+        text-align:center;
+        padding:20px;
+        margin-bottom:60px;
+    }
+    
+    #navoptions a {
+        padding-left:25px;
+        padding-right:25px;    
+        color:black;
+        font-size:2em;
+    }
+
+    .ablink {
+        color:green;
+    }
+
+    .ablink:hover {
+        color:grey;
+    }
+    
+    h3 {
+        text-align:center;    
+        color:rgb(97, 97, 97);
+        background-color:rgb(192, 218, 199);
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:7px;
+        font-weight: normal;
+        font-size:2em;
+    }
+    
+    .infotext {
+        width:65%;
+        text-align:justify;    
+        margin-left:auto;
+        margin-right:auto;
+        color:rgb(27, 27, 27);
+        font-size: 1.5em;
+        line-height:1.5;
+    }
+    
+    
+    .picContain {
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;  
+        margin-bottom:75px;
+        text-align:center;
+    }
+    
+    .fourpics { 
+        height:350px;
+          width: 48%;     
+          padding-bottom:1%;   
+         
+    }
+      
+         
+        
+    
+    #sign {
+        color:rgb(30, 97, 45);
+        
+        text-align:center;
+    }
+    
+    
+    
+    #open {
+        color:rgb(28, 92, 26);
+     
+        text-align:center;
+    }
+    
+    #bees {
+        width:80%;
+        height:800px;
+        margin-left:auto;
+        margin-right:auto;
+        background-image:url("../IMG/bees.jpg");
+        background-size: cover;
+        background-position: center;
+        margin-bottom:100px;
+    }
+    
+    
+    
+    @media   (max-width: 1400px) { 
+    
+        .fourpics {      
+              width:80%;
+              padding-bottom:1%;          
+             
+        }
+          
+    
+    
+    
+    }
+}

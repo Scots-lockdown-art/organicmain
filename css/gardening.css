@@ -1,0 +1,487 @@
+
+
+@media only screen and (max-width: 999px) {  
+
+  .deskgard {
+    display:none;
+  }
+
+h2 {
+  text-align:center;
+  font-size:2.5em;
+  color:white;
+   margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+
+h3 {
+  color:rgb(73, 100, 73);
+  text-align:center;
+  font-size:2em;
+}
+
+#container1 {
+  display:flex;   
+  flex-wrap:wrap;
+  justify-content:space-between;  
+  width:100%;      
+  color:rgb(51, 51, 51);     
+  margin-bottom:0px;   
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-20px;  
+ background-color:rgb(183, 204, 183);   
+  text-align:center;
+  padding-bottom:30px;
+  padding-top:45px;
+}
+
+#container2 {
+  background-color:rgb(183, 204, 183);  
+  padding-top:30px;
+  margin-top:0; 
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  margin-right:10px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+
+input
+ {
+  background-color: #ececec;
+  color: rgb(15, 15, 15);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;   
+}
+
+.row2 {   
+  text-align:center;
+}
+
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  letter-spacing: 1px;
+ 
+}
+
+
+button {
+  width:25%;
+  background-color: rgb(230, 186, 105);
+  color:rgb(56, 56, 56);
+  border:none;
+  padding:10px;
+  font-weight:bold; 
+  cursor:pointer;
+  letter-spacing: 1px;
+  font-size:25px;
+ 
+    }
+
+    button:hover {
+      background-color: rgb(194, 147, 61);
+  
+  }      
+  
+
+  
+.gardpics {  
+  width:100%;   
+  height:750px;
+  padding:0;
+  margin:0; 
+    margin-top:-2px;
+    margin-bottom:-3px; 
+   
+}
+
+
+
+.boxy {    
+  width:50%;
+  padding: 20px 100px;   
+  text-align:center;
+  font-style:italic;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:2.5em;
+  line-height:1.4;  
+}
+
+
+
+
+#tests{   
+  margin-top:0;
+  width:100%;
+  padding-top:40px;
+  padding-bottom:80px;
+    background-color:rgb(183, 204, 183);  
+ 
+  }
+
+ #container2 {
+  text-align:center;   
+     margin-bottom:0;
+   
+}
+
+
+#signup {
+  display:block; 
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:60px;
+    width:100%;
+}
+
+
+#aboutgarden {
+  display:block;  
+   width:90%;
+  margin-bottom:75px;  
+  margin-left:auto;
+  margin-right:auto;
+   
+}
+
+.textAbout {
+margin-top:0px;
+  line-height:1.4;
+  font-size:1em;
+  padding-top:15px;
+  text-align: justify;
+
+
+
+}
+  
+form {   
+  font-size:25px;
+ background-color:rgba(105, 139, 105, 0.329);       
+height:auto;   
+padding:20px;   
+margin-top:0px;
+margin-bottom:auto;      
+padding-top:40px;
+color:rgb(46, 45, 45);         
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#prices {
+  text-align:center;
+ margin-top:-20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+
+}
+
+table {
+  padding:20px;
+  background-color:rgb(243, 238, 168);
+  border-collapse: collapse;
+  text-align:center;
+  font-size:2em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td, th {
+  border:1px solid black;
+  padding:15px;   
+
+}
+
+th {
+background-color:white;
+}
+
+.changecolor {
+background-color:rgb(214, 214, 169);
+}
+
+.changelink {
+  color:rgb(17, 102, 17);
+}
+
+.changelink:hover {
+  color:grey;
+}
+
+.signtxt {
+  font-size:0.8em;
+  line-height:1.2;
+  text-align:center;
+  padding-left:40px;
+  padding-right:40px;
+  color:rgb(100, 100, 100);
+}
+
+
+}
+
+
+@media only screen and (min-width: 1000px) { 
+  
+  .signtxt {
+    font-size:1.5em;
+    line-height:1.2;
+    text-align:center;
+    color:rgb(85, 85, 85);
+  }
+
+  .changelink {
+    color:rgb(17, 102, 17);
+  }
+  
+  .changelink:hover {
+    color:grey;
+  }
+
+  .mobgard {
+    display:none;
+
+  }
+
+  .textAbout {
+
+    color:rgb(49, 49, 49);
+    line-height:1.4;
+    font-size:1.5em;
+  }
+
+  h3 {
+    color:rgb(73, 100, 73);
+    text-align:center;
+    font-size:3em;
+  }
+
+  h4 {
+    text-align:center;
+    color:rgb(73, 100, 73);
+    font-size:3em;
+}
+
+#container1 {
+    display:flex;   
+    flex-wrap:wrap;
+    justify-content:space-between;  
+    width:90%;         
+    margin-bottom:75px;   
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;  
+    background-color:rgb(183, 204, 183); 
+}
+
+.conta {
+  background-color:rgb(183, 204, 183); 
+  margin-top:-60px;
+  padding-top:15px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  margin-right:10px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+
+input
+ {
+  background-color: #ececec;
+  color: rgb(15, 15, 15);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;   
+}
+
+.row2 {   
+  text-align:center;
+}
+
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  letter-spacing: 1px;
+ 
+}
+
+
+button {
+  width:auto;
+  background-color: rgb(230, 186, 105);
+  color:rgb(56, 56, 56);
+  border:none;
+  padding:10px;
+  font-weight:bold; 
+  cursor:pointer;
+  letter-spacing: 1px;
+  font-size:25px;
+ 
+    }
+
+    button:hover {
+      background-color: rgb(194, 147, 61);
+  
+  }      
+  
+
+   
+
+      form {   
+        background-color:rgba(105, 139, 105, 0.329);    
+        height:auto;   
+        padding:20px;   
+        margin-top:40px;
+        margin-bottom:auto;      
+        padding-top:50px;
+        color:rgb(46, 45, 45);            
+           padding-top:30px; 
+          width:100%;        
+    }
+
+
+
+#signup {
+    flex:1 1 50px;   
+    
+}
+
+
+#aboutgarden {
+    flex:2 1 50px;
+    text-align:center; 
+   padding-left:100px;    
+}
+
+#container2 {
+  text-align:center;  
+  padding-bottom:40px;  
+   
+}
+
+    
+    
+.gardpics { 
+  min-width:350px;
+    width:30%;
+     
+   
+}
+
+.boxy {
+    
+    width:30%;
+    padding: 20px 100px;   
+    text-align:center;
+    font-style:italic;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.5em;
+    line-height:1.4;
+    color:rgb(43, 43, 43);
+    
+}
+
+
+
+
+#tests{   
+  margin-top:0;
+  width:100%;
+  padding-top:40px;
+  padding-bottom:25px;
+    background-color:rgb(183, 204, 183);  
+ 
+  }
+
+  table {
+    padding:20px;
+    background-color:rgb(243, 238, 168);
+    border-collapse: collapse;
+    text-align:center;
+    font-size:1.5em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  td, th {
+    border:1px solid black;
+    padding:15px;   
+
+  }
+  
+  th {
+  background-color:white;
+}
+
+.changecolor {
+  background-color:rgb(214, 214, 169);
+}
+
+
+}
